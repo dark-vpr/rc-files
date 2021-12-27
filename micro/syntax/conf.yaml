@@ -1,0 +1,17 @@
+vfiletype: conf                                      
+detect:
+    filename: "(\\.(conf)|\\.(cfg)$|\\.(properties)$)"
+
+rules:
+    - constant.string:
+        start: "\""
+        end: "\""
+        skip: "\\\\."
+        rules:
+            - constant.specialChar: "\\\\."
+
+    - comment:
+        start: "#"
+        end: "$"
+        rules:
+            - todo: "(TODO|XXX|FIXME):?"
