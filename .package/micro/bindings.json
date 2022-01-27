@@ -6,6 +6,10 @@
     "Alt-r": "command-edit:replace ",
     "Alt-s": "Save,Quit",
     "Tab": "Autocomplete|IndentSelection|InsertTab",
+    "CtrlUp":"SelectUp",
+    "CtrlDown":"SelectDown",
+    "CtrlLeft":"SelectWordLeft",
+    "CtrlRight":"SelectWordRight",
 
     "\u001b[1;2A": "SelectUp",
     "\u001b[1;2B": "SelectDown",
