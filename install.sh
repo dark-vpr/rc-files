@@ -1,7 +1,12 @@
 #/bin/bash
 
 ln -sf $PWD/.package/.tmux.conf ~/.tmux.conf
-
+if [ -d $HOME/.tmux/plugins/tpm ]; then
+	printf "TPM has already been Installed.....\n"
+else
+	git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+	echo "TPM Installation Completed....\n"
+fi
 if [ -d "$HOME/.config/micro" ]; then
 	rm -rf $HOME/.config/micro/syntax
 	ln -sf $PWD/.package/micro/syntax $HOME/.config/micro/syntax
