@@ -1,0 +1,11 @@
+jorgebucaran/fisher
+jethrokuan/z
+junegunn/fzf
+ilancosman/tide@v5
+jorgebucaran/autopair.fish
+franciscolourenco/done
+jorgebucaran/replay.fish
+joseluisq/gitnow@2.10.0
+oh-my-fish/plugin-pj
+nickeb96/puffer-fish
+meaningful-ooo/sponge
