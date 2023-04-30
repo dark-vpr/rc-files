@@ -9,3 +9,4 @@ joseluisq/gitnow@2.10.0
 oh-my-fish/plugin-pj
 nickeb96/puffer-fish
 meaningful-ooo/sponge
+gazorby/fish-abbreviation-tips
