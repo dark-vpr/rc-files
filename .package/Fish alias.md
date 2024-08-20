@@ -1,6 +1,5 @@
 
 
-alias -s ls 'exa'
-alias -s la "ls -a --group-directories-first"
-alias -s ll "ls -la --group-directories-first"
-alias -s lh 'ls -lah --group-directories-first'
+alias la 'exa -ga --group-directories-first' -s
+alias lh 'exa -lgah --group-directories-first' -s
+alias ll 'exa -lag --group-directories-first' -s
