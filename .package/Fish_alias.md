@@ -1,3 +1,3 @@
-alias la 'exa -axF --group-directories-first' -s;
-alias lh 'exa -lgahF --group-directories-first' -s;
-alias ll 'exa -lagF --group-directories-first' -s;
+alias la 'eza -ax --icons=auto --group-directories-first' -s;
+alias lh 'eza -lgaah --git --icons=auto --group-directories-first' -s;
+alias ll 'eza -laag --git --icons=auto --group-directories-first' -s;
