@@ -1,7 +1,7 @@
 jorgebucaran/fisher
 jethrokuan/z
 junegunn/fzf
-ilancosman/tide@v5
+IlanCosman/tide@v6
 jorgebucaran/autopair.fish
 franciscolourenco/done
 jorgebucaran/replay.fish
